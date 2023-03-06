@@ -20,7 +20,7 @@
       "string": ["user", "admin"]
     }
   },
-  "Payments": {
+  "Payment": {
     "_": { "items": 25 },
     "id": { "string": {} },
     "date": {
