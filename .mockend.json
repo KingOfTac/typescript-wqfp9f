@@ -42,7 +42,7 @@
       "string": ["pending", "completed", "failed"]
     },
     "amount": {
-      "number": {
+      "int": {
         "min": 247,
         "max": 12000
       }
