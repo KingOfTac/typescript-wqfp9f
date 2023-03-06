@@ -19,5 +19,35 @@
     "roles": {
       "string": ["user", "admin"]
     }
+  },
+  "Payments": {
+    "_": { "items": 25 },
+    "id": { "string": {} },
+    "date": {
+      "dateTime": {
+        "min": "2023-01-01T00:00:00Z",
+        "max": "2023-02-28T23:59:59Z"
+      }
+    },
+    "from": {
+      "id": {
+        "belongsTo": "User"
+      }
+    },
+    "to": {
+      "string": ["Chase Bank - 4567", "Wells Fargo - 3456", "USAA - 1234"]
+    },
+    "type": {
+      "string": ["payment to", "payment from", "payment transfer"]
+    },
+    "status": {
+      "string": ["pending", "completed", "failed"]
+    },
+    "amount": {
+      "number": {
+        "min": 247,
+        "max": 12000
+      }
+    }
   }
 }
