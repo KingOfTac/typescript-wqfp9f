@@ -30,9 +30,7 @@
       }
     },
     "from": {
-      "id": {
-        "belongsTo": "User"
-      }
+      "belongsTo": "User"
     },
     "to": {
       "string": ["Chase Bank - 4567", "Wells Fargo - 3456", "USAA - 1234"]
