@@ -1,5 +1,23 @@
 {
   "User": {
-    "id": { "string": {} }
+    "-": {
+      "items": 10
+    },
+    "id": { "string": {} },
+    "firstName": { "string": {} },
+    "lastName": { "string": {} },
+    "email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
+    "setupStatus": {
+      "string": [
+        "profile_setup",
+        "mfa_setup",
+        "bank_personal_info",
+        "bank_account"
+      ]
+    },
+    "smsVerified": { "boolean": {} },
+    "roles": {
+      "string": ["user", "admin"]
+    }
   }
 }
