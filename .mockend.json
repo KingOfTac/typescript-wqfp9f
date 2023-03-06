@@ -17,7 +17,7 @@
     },
     "smsVerified": { "boolean": {} },
     "roles": {
-      "string": ["user", "admin"]
+      "array": ["user", "admin"]
     }
   }
 }
